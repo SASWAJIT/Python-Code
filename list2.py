@@ -1,0 +1,11 @@
+Avengers=['spider man','iron man','Thor','hulk']
+print(len(Avengers))
+Avengers.append('Black Panther')
+print(Avengers)
+Avengers.remove('Thor')
+Avengers.insert(3,"doctor strange")
+print(Avengers)
+Avengers.sort() 
+print(Avengers)
+Avengers.sort(reverse=True)
+print(Avengers)
